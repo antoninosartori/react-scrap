@@ -16,13 +16,13 @@ function App() {
           isLoading && <h2>poner los skeletons</h2>
         }
         {
-          error && <h2>poner quie hjay un error</h2>
+          error && <h2>{error.message}</h2>
         }
         {
           allArticles.map( newSite => {
-            const { firstArticles, name, imageSite } = newSite
+            const { firstArticles, name, imageSite, urlSite } = newSite
             return(
-              < RowNew key={name} name={name} firstArticles={firstArticles} imageSite={imageSite} />
+              < RowNew key={name} name={name} firstArticles={firstArticles} imageSite={imageSite} urlSite={urlSite} />
             )
           })
         }

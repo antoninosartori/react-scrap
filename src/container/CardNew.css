@@ -1,0 +1,12 @@
+.card-new{
+    min-width: 250px;
+    width: 400px;
+}
+
+.card-new a {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}

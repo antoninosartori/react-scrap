@@ -1,12 +1,8 @@
 < App />
-    [] Agregar contexto para no tener que pasar props a los hijos.
     [] Hacer componente < Loading />
     [] Hacer componente < Error />
 
 < RowNew />
-    [] Disponer flexbox en el container.
-    [] Hacerlo scrolleable horiontalmente.
-    [] 
 
 < CardNew />
     [] Condicionar la URL, si viene de un sitio que es infobae agregarle el dominio
@@ -15,4 +11,8 @@
     [x] Si la noticia no tiene imagen, agregar una por defecto.
     [] Hacer una defaultImage mas linda. 
     [] LoadingSkeleton de la imagen hasta cargarla.
+
+Fuentes
+Estilos de carta
+
 
