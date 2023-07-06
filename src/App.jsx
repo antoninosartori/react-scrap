@@ -13,11 +13,10 @@ function App() {
       < Header />
       <section className='container-news'>
         {
-          allArticles.map( diario => {
-            console.log(diario)
-            const { firstArticles, name, imageSite } = diario
+          allArticles.map( newSite => {
+            const { firstArticles, name, imageSite } = newSite
             return(
-              < RowNew key={diario.name} name={name} firstArticles={firstArticles} imageSite={imageSite} />
+              < RowNew key={newSite.name} name={name} firstArticles={firstArticles} imageSite={imageSite} />
             )
           })
         }

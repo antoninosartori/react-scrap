@@ -1,0 +1,13 @@
+header{
+    width: 100%;
+    background-color: var(--black);
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: var(--px3);
+    padding: var(--paddingTop);
+}

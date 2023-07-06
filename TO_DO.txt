@@ -1,0 +1,14 @@
+< App />
+    [] Agregar contexto para no tener que pasar props a los hijos.
+    [] Hacer componente < Loading />
+    [] Hacer componente < Error />
+
+< RowNew />
+    [] Disponer flexbox en el container.
+    [] Hacerlo scrolleable horiontalmente.
+    [] 
+
+< Image />
+    [] Si la noticia no tiene imagen, agregar una por defecto.
+    [] LoadingSkeleton de la imagen hasta cargarla.
+

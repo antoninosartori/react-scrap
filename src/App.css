@@ -1,0 +1,11 @@
+main{
+}
+
+.container-news{
+    padding-left: var(--paddingLeft);
+    display: flex;
+}
+
+.container-news .row-new .image-container .site-image{
+    height: 100px;
+}

@@ -1,5 +1,5 @@
 import TitleNew from '../components/TitleNew'
-import BrandImage from '../components/BrandImage'
+import Image from '../components/Image'
 
 export default function CardNew({ firstArticles }) {
   return (
@@ -10,7 +10,7 @@ export default function CardNew({ firstArticles }) {
             return(
               <>
                 < TitleNew title={title} />
-                < BrandImage imageUrl={image} />
+                < Image imageUrl={image} alt={title} />
               </>
             )
           })
