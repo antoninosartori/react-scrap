@@ -8,7 +8,11 @@
     [] Hacerlo scrolleable horiontalmente.
     [] 
 
+< CardNew />
+    [] Condicionar la URL, si viene de un sitio que es infobae agregarle el dominio
+
 < Image />
-    [] Si la noticia no tiene imagen, agregar una por defecto.
+    [x] Si la noticia no tiene imagen, agregar una por defecto.
+    [] Hacer una defaultImage mas linda. 
     [] LoadingSkeleton de la imagen hasta cargarla.
 

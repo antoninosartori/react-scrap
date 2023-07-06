@@ -1,0 +1,10 @@
+.row-new{
+    display: flex;
+    flex-direction: column;
+}
+
+.row-new_scroll{
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+}
