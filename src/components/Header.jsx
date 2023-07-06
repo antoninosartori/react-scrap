@@ -3,7 +3,7 @@ import './Header.css'
 export default function Header() {
   return (
     <header>
-        <h1>argenews</h1>
+        <h1>ArgeNews</h1>
     </header>
   )
 }

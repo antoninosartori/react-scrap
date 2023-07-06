@@ -1,11 +1,11 @@
 import './Image.css'
-import defaultImage from '../assets/defaultImage.png'
+import { defaultImageUrl } from '../utils/utils'
 
 export default function Image({imageUrl, isSiteImage, alt}) {
 
   const imageClassName = isSiteImage ? 'site-image' : 'new-image'
   const altImage = isSiteImage ? `Foto del sitio de noticias ${alt}` : alt
-  const srcImage = imageUrl ?? defaultImage
+  const srcImage = imageUrl ?? defaultImageUrl
 
   return (
     <div className='image-container'> 

@@ -26,8 +26,11 @@ function App() {
             )
           })
         }
+        {
+          /* footer */
+        }
       </section>
-
+      
     </main>
   )
 }

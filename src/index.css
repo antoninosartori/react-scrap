@@ -11,6 +11,9 @@
     --px1: 10px;
     --px2: 20px;
     --px3: 30px;
+    --px4: 40px;
+    --px5: 50px;
+    --px6: 60px;
 
     /* colores */
     --black: #000;
@@ -21,12 +24,24 @@
     --paddingTop: var(--px3);
     --paddingLeft: var(--px3);
     --marginTop: var(--px3);
+
+    /* fuentes */
+    --fontMain: 'Roboto', sans-serif;
+    --fontSizeHeading: var(--px3);
+    --fontSizeBody: var(--px2);
+    --fontSizSmall: 16px;
+}
+
+body{
+    font-family: var(--fontMain);
+    font-size: var(--fontSizeSmall);
 }
 
 .container{
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
+    padding: var(--px5) 0;
 }
 
 a{
