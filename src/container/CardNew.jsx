@@ -9,7 +9,7 @@ export default function CardNew({  urlSite, firstArticles }) {
         {
           firstArticles.map(article => {
             const { title, image, url } = article
-            const fixedUrl = url === 'undefined' ? urlSite : url
+            const fixedUrl = url === undefined ? urlSite : url
             const href = fixedUrl.startsWith('/') ? `${urlSite}${url}` : url
 
             return(
